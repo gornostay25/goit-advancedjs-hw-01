@@ -1,11 +1,11 @@
-import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                     */import{S as l}from"./assets/vendor-D0gBiHs0.js";const r=[{preview:"/img/gallery/preview-01.jpg",original:"/img/gallery/original-01.jpg",description:"Hokkaido Flower"},{preview:"/img/gallery/preview-02.jpg",original:"/img/gallery/original-02.jpg",description:"Container Haulage Freight"},{preview:"/img/gallery/preview-03.jpg",original:"/img/gallery/original-03.jpg",description:"Aerial Beach View"},{preview:"/img/gallery/preview-04.jpg",original:"/img/gallery/original-04.jpg",description:"Flower Blooms"},{preview:"/img/gallery/preview-05.jpg",original:"/img/gallery/original-05.jpg",description:"Alpine Mountains"},{preview:"/img/gallery/preview-06.jpg",original:"/img/gallery/original-06.jpg",description:"Mountain Lake Sailing"},{preview:"/img/gallery/preview-07.jpg",original:"/img/gallery/original-07.jpg",description:"Alpine Spring Meadows"},{preview:"/img/gallery/preview-08.jpg",original:"/img/gallery/original-08.jpg",description:"Nature Landscape"},{preview:"/img/gallery/preview-09.jpg",original:"/img/gallery/original-09.jpg",description:"Lighthouse Coast Sea"}],a=document.querySelector(".gallery"),o=r.map(({preview:i,original:e,description:g})=>`
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                     */import{S as o}from"./assets/vendor-D0gBiHs0.js";const i=e=>`/goit-advancedjs-hw-01/img/gallery/${e}`,p=[{preview:i("preview-01.jpg"),original:i("original-01.jpg"),description:"Hokkaido Flower"},{preview:i("preview-02.jpg"),original:i("original-02.jpg"),description:"Container Haulage Freight"},{preview:i("preview-03.jpg"),original:i("original-03.jpg"),description:"Aerial Beach View"},{preview:i("preview-04.jpg"),original:i("original-04.jpg"),description:"Flower Blooms"},{preview:i("preview-05.jpg"),original:i("original-05.jpg"),description:"Alpine Mountains"},{preview:i("preview-06.jpg"),original:i("original-06.jpg"),description:"Mountain Lake Sailing"},{preview:i("preview-07.jpg"),original:i("original-07.jpg"),description:"Alpine Spring Meadows"},{preview:i("preview-08.jpg"),original:i("original-08.jpg"),description:"Nature Landscape"},{preview:i("preview-09.jpg"),original:i("original-09.jpg"),description:"Lighthouse Coast Sea"}],g=document.querySelector(".gallery"),l=p.map(({preview:e,original:r,description:a})=>`
     <li class="gallery-item">
-      <a class="gallery-link" href="${e}">
+      <a class="gallery-link" href="${r}">
         <img
           class="gallery-image"
-          src="${i}"
-          alt="${g}"
+          src="${e}"
+          alt="${a}"
         />
       </a>
-    </li>`).join("");a.insertAdjacentHTML("beforeend",o);new l(".gallery a",{captionsData:"alt",captionDelay:250,captionPosition:"bottom"});
+    </li>`).join("");g.insertAdjacentHTML("beforeend",l);new o(".gallery a",{captionsData:"alt",captionDelay:250,captionPosition:"bottom"});
 //# sourceMappingURL=1-gallery.js.map
